@@ -1,0 +1,44 @@
+/*importar una fuente descargada*/
+@font-face{
+    font-family: josefin-custom ;
+    src: url(../fuentes/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Estonia', cursive;
+    /* colores del sistema */
+    color: mediumpurple;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    /* colores del hexadecimales */
+    color: #20B2AA;
+}
+p{
+    font-family: josefin-custom;
+}
+
+/* colores del RBG */
+/* colores del RBGA */
+.cajas{
+    max-width: 1035px;
+}
+.caja{
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 2px solid purple;
+    margin: 15px;
+    padding: 20px;
+    float: left;
+}
+.contenido{
+    font-weight: bold;
+    text-align: center;
+    line-height: 248px;
+}
