@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal{
+    width: 1200px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 20px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: plum;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+    background: #eee;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;    
+}   
+.contenido-principal{
+    width: 69%;
+    float: left;
+}
+.lateral-bar{
+    width: 30%;
+    float: left;
+}
+.caja{
+    width: 40%;
+    height: 150px;
+    float: left;
+    background-color: #eee;
+    border: 1px solid blueviolet;
+    margin: 10px;
+}
+footer{
+    width: 100%;
+}
